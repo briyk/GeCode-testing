@@ -1,0 +1,33 @@
+* Hero Headers it home header ,the first thing you see in site , Overview of the site
+* Align content in center of banner image
+* set the height of parent element to 100% and set the child 100% to take the full height of parent
+    set the html,body to 100% before starting
+* There are many ways to center elements in header Such as:
+    1- parent take display table and child take display table-cell and make it center vert and horz
+    2- but i will use flexbox
+* Make image Gallery using jQuery    
+
+
+* To make carousel
+    make all boxs in col-md-12
+    make warpper inside it 
+    give it class owl-carousel,owl-theme
+    call it using js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------
+background-size : Cover;
+animation properties
+data attribute

@@ -1,0 +1,66 @@
+/*======================== Bootstrap Media Queries
+======================================================== */
+
+/* Medium Screens (Tablets , Medium Desktops,..)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Ok no Issues */
+}
+
+/* Small Screens (Smart Phones , ipads,..)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.7);
+        /* padding: 0px 80px; */
+    }
+}
+
+/* Extra Smaall Screens ( Phones , small devices,..)*/
+@media (max-width: 767px) {
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.7);
+        /* padding: 0px 80px; */
+    }
+
+    .home-content h3.home-heading {
+        font-size: 2rem;
+    }
+
+    #services .container {
+        max-width: 630px;
+    }
+
+    .services-box {
+        padding: 15px;
+    }
+
+    .about-bg {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+    #about .about-left {
+        float: none;
+        height: auto;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    #about .title {
+        margin-bottom: 10px;
+    }
+
+    .counter-box {
+        margin-bottom: 40px;
+    }
+
+    .contact-left ul {
+        text-align: center;
+    }
+
+    #contact [class*="col-md-"]:nth-child(2) {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
